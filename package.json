@@ -9,6 +9,8 @@
     "postinstall": "yarn build && serve -s dist"
   },
   "dependencies": {
+    "node": "^10.8.0",
+    "serve": "^10.0.0",
     "vue": "^2.5.17",
     "web3": "^1.0.0-beta.35"
   },
