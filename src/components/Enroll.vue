@@ -1,8 +1,8 @@
 <template>
   <div class="enroll">
     <v-card>
-      <v-card-title class="title justify-center teal darken-3" style="color: white;" >
-        Become a Full-Stack Engineer!
+      <v-card-title class="title justify-center light-blue darken-3" style="color: white;" >
+        Become a Full-Stack Engineer
       </v-card-title>
         <v-container>
           <v-layout row wrap>
@@ -27,12 +27,12 @@
           <strong>Your Balance:</strong> {{Math.round(this.balance * 100) / 100 }} ETH
         </div>
         <v-form class="form" >
-          <v-text-field v-model="getFirstName" label="First Name" required color="teal darken-3" ></v-text-field>
-          <v-text-field v-model="getLastName" label="Last Name" required color="teal darken-3"></v-text-field>
-          <v-text-field v-model="getAge" label="Age" required color="teal darken-3"></v-text-field>
-          <v-checkbox v-model="toggleChecked" color="teal darken-3" label="I've double-checked my information and they are correct."></v-checkbox>
+          <v-text-field v-model="getFirstName" label="First Name" required color="light-blue darken-3" ></v-text-field>
+          <v-text-field v-model="getLastName" label="Last Name" required color="light-blue darken-3"></v-text-field>
+          <v-text-field v-model="getAge" label="Age" required color="light-blue darken-3"></v-text-field>
+          <v-checkbox v-model="toggleChecked" color="light-blue darken-3" label="I've double-checked my information and they are correct."></v-checkbox>
         </v-form>
-          <v-btn block color="teal darken-3" dark @click="enroll">Sign me up</v-btn>
+          <v-btn block color="light-blue darken-3" dark @click="enroll">Purchase Access</v-btn>
       </v-card-text>
     </v-card>
   </div>

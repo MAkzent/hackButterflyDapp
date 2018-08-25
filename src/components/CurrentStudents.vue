@@ -4,7 +4,7 @@
             <v-flex xs12 md6>
               <div class="students__wrapper">
               <v-card>
-                <v-card-title class="title justify-center green accent-2">
+                <v-card-title class="title justify-center light-green lighten-2 ">
                   🐛 Students 🐛
                 </v-card-title>
                 <v-card-text>
@@ -20,11 +20,11 @@
               <v-flex xs12 md6>
                 <div class="alumni__wrapper">
                 <v-card>
-                  <v-card-title class="title justify-center cyan lighten-2">
+                  <v-card-title class="title justify-center orange lighten-2">
                     🦋 Alumni 🦋
                   </v-card-title>
                   <v-card-text>
-                    <div class="students" v-for="student in this.students" v-bind:key="student.id">
+                    <div class="students" v-for="student in this.alumni" v-bind:key="student.id">
                         <div class="singleStudent">
                         <strong>{{student.firstName}} {{student.secondName}}</strong> <br>
                         </div>
@@ -67,6 +67,7 @@ export default {
     balance: 0,
     hackButterflyContract: {},
     students: [],
+    alumni: [],
   }),
   methods: {
     async getAllStudents() {
@@ -80,7 +81,11 @@ export default {
           secondName: student[2],
           status: student[3],
         }
-        this.students.push(student);
+        if (student.status === "Enrolled") {
+          this.students.push(student);
+        } else if (student.status === "Graduated") {
+          this.alumni.push(student);
+        }
       }
       return this.students;
     },
