@@ -102,10 +102,6 @@ export default {
   text-align: left;
 }
 
-.singleStudent {
-  margin-top: 20px;
-}
-
 .students__wrapper {
   margin: 5px 5px 0 0;
 }
