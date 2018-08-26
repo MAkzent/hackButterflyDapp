@@ -1,1 +1,1 @@
-module.exports = '0x2735a0270b600d925e01c39b1faef9497582ef53'
+export default '0xc56de382c6e516ab88535d998f302f812b691915';

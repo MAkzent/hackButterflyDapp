@@ -21,7 +21,7 @@
           </v-layout>
         </v-container>
       <v-card-text class="body-2 description"> 
-        Our decentralized, 12-week course will challenge you like you have never been challenged before. Turn your <strong> 5 ETH </strong> into an engineering career.  👨‍💻
+        Our decentralized, 12-week course will challenge you like you have never been challenged before. Turn your <strong> {{this.programCost/1000000000000000000}} ETH </strong> into an engineering career.  👨‍💻
         <div class="balance">
           <strong>Your Address:</strong> {{this.fromAddress}} <br>
           <strong>Your Balance:</strong> {{Math.round(this.balance * 100) / 100 }} ETH
@@ -55,6 +55,7 @@ export default {
     this.fromAddress = await web3.eth.getCoinbase() 
     this.balance = await web3.eth.getBalance(this.fromAddress) / 1000000000000000000;
     this.hackButterflyContract = new web3.eth.Contract(ABI, contractAddress, {gasPrice: '5000000000', from: this.fromAddress});
+    this.programCost = await this.getProgramCost();
   },
   data: () => ({
     firstName: "",
@@ -63,6 +64,7 @@ export default {
     checked: false,
     fromAddress: "",
     balance: 0,
+    programCost: "-",
   }),
   computed: {
     getFirstName: {
@@ -101,12 +103,15 @@ export default {
   methods: {
     async enroll() {
       if (this.checked) {
-        await this.hackButterflyContract.methods.enrollStudent(this.age, this.firstName, this.lastName).send({value: 5000000000000000000});
+        await this.hackButterflyContract.methods.enrollStudent(this.age, this.firstName, this.lastName).send({value: this.programCost});
       } else {
         alert("Please agree that all data is correct. ")
       }
     },
-
+    async getProgramCost() {
+      const programCost = await this.hackButterflyContract.methods.programCost().call();
+      return programCost
+    },
   }
 }
 </script>
