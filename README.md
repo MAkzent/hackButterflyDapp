@@ -27,11 +27,11 @@ Welcome to my very first dApp tutorial! Please find the [presentation here](http
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-To me, blockchain technology is a paradigm shift in the sectors of transparency, trust, and efficiency. Inspired by the thoughts about a [transparency standard](https://www.forbes.com/sites/paulmartyn/2018/03/28/does-blockchain-provide-the-new-standard-for-transparency/#bb46c663921e) that could be achieved through blockchain, I thought about how to achieve that in small scale. Imagine a world where every university offers a transparent, always up to date, and immutable list of students and graduates. Instead of background-checking if a student realy went to Stanford, one can simply call function on a smart contractfind to receive the answer. 100% free and always updated. 
+Blockchain technology is a paradigm shift in the sectors of transparency, trust, and efficiency. Inspired by the thoughts about a [transparency standard](https://www.forbes.com/sites/paulmartyn/2018/03/28/does-blockchain-provide-the-new-standard-for-transparency/#bb46c663921e) that could be achieved through blockchain, I thought about how to achieve that on a small scale. Imagine a world where every university offers a transparent, always up to date, and immutable list of students and graduates. Instead of background-checking if a student realy went to Stanford, one can simply call a function on a smart contract to receive the answer. 100% free and always true. 
 
-The online coding school Hack Butterfly is an MVP to model such an idea through using [Ethereum](https://www.ethereum.org/), [Solidity](https://solidity.readthedocs.io/en/v0.4.24/), [web3](https://github.com/ethereum/web3.js/), and [Vue](https://vuejs.org/).
+The online coding school [Hack Butterfly](https://hackbutterfly.herokuapp.com/) is an MVP to model such an idea using [Ethereum](https://www.ethereum.org/), [Solidity](https://solidity.readthedocs.io/en/v0.4.24/), [web3](https://github.com/ethereum/web3.js/), and [Vue](https://vuejs.org/).
 
-This project and the presentation were both created during my time as a student at Code Chrysalis. (yes, Hack Butterfly is a pun on that, glad you caught it)
+This project and presentation were both created during my time as a student at [Code Chrysalis](https://www.codechrysalis.io/) in Tokyo. (Yes. Hack Butterfly is a pun, glad you caught it.)
 
 [You can check out the demo here!](https://hackbutterfly.herokuapp.com/)
 
@@ -39,7 +39,7 @@ This project and the presentation were both created during my time as a student 
 
 These are the features of the current version:
 
-* Sign up as a student through the Ropsten test network!
+* Sign up as a student through the Ropsten test network for just 5ETH!
 * Get a list of current students and alumni
 * OnlyOwner: Graduate student
 * OnlyOwner: Set program cost
@@ -49,7 +49,7 @@ These are the features of the current version:
 Here's some useful information to get know before getting started with the codebase 
 
 * Owner: 0x4B8dc8d5A7d51c2FFE2A3C1f08DbFC884265967E
-* Smart Contract address and ABI is in public/src/utils
+* Smart Contract, its address, and the ABI are all in public/src/utils
 
 
 ## Feedback

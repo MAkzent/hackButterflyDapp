@@ -37,6 +37,7 @@
       "parser": "babel-eslint"
     }
   },
+  "eslintIgnore": ["enrollment.sol", "ownable.sol"],
   "postcss": {
     "plugins": {
       "autoprefixer": {}
