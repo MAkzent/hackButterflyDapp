@@ -1,6 +1,6 @@
-# Hack Butterfly
-
 <p align="center">
+  <h1> Hack Butterfly </h1>
+  <br>
   <img alt="hackButterfly" title="hackButterfly" src="public/images/intro.png" width="auto">
 </p>
 
@@ -83,3 +83,24 @@ yarn start
 ## Feedback
 
 Please feel free to send me any feedback or questions via [Discord](https://discordapp.com/users/Akzent#6791) or [email](https://www.sourcecon.com/how-to-find-almost-any-github-users-email-address/).
+
+## Keep Studying!
+
+Here are some ressources that helped me get started, ordered by how helpful they were:
+
+* Probably the best Solidity tutorial out there: [Crypto Zombies](https://cryptozombies.io)
+* Fullstack tutorial with Vue, web3, and Solidity: [Build a Casino!](https://itnext.io/create-your-first-ethereum-dapp-with-web3-and-vue-js-c7221af1ed82)
+* Introduction to the Truffle Framework: [Pet Shop](https://truffleframework.com/tutorials/pet-shop)
+* YouTube: [Ethereum course for beginners](https://www.youtube.com/watch?v=KU6bvciWgRE&list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3)
+
+Lastly, some interesting projects that you should know:
+
+* [Truffle](https://truffleframework.com/)
+* [Infura](https://infura.io/)
+* [OpenZeppelin](https://openzeppelin.org/)
+* [Consensys](https://new.consensys.net/)
+* [0x](https://0xproject.com/)
+* [Aragon](https://aragon.org/)
+
+
+
