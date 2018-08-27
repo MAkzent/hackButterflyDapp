@@ -1,7 +1,7 @@
 # Hack Butterfly
 
 <p align="center">
-  <img alt="hackButterfly" title="hackButterfly" src="public/images/intro.png" width="auto">
+  <img alt="hackButterfly" title="hackButterfly" src="public/images/titleImage.png" width="auto">
 </p>
 
 ## Table of Contents
