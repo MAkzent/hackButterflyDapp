@@ -57,7 +57,7 @@ export default {
     // get balance from user
     this.balance = await web3.eth.getBalance(this.fromAddress) / 1000000000000000000;
 
-    // get contract with ABI, address. 
+    // create contract instance with ABI, address. 
     // set gasPrice and default fromAddress
     this.hackButterflyContract = new web3.eth.Contract(ABI, contractAddress, {gasPrice: '5000000000', from: this.fromAddress});
     await this.getAllStudents();
@@ -87,7 +87,7 @@ export default {
           this.alumni.push(student);
         }
       }
-      return this.students;
+      return
     },
     async getStudent(id) {
       const student = await this.hackButterflyContract.methods.studentAccounts(id).call();
