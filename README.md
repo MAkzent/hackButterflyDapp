@@ -9,7 +9,7 @@
 - [TL;DR](#tl;dr)
 - [Introduction](#introduction)
 - [Features](#features)
-- [Project Setup](#project setup)
+- [Setup](#setup)
 - [Feedback](#feedback)
 
 
@@ -51,33 +51,33 @@ Here's some useful information to get know before getting started with the codeb
 * Owner: 0x4B8dc8d5A7d51c2FFE2A3C1f08DbFC884265967E
 * Smart Contract, its address, and the ABI are all in public/src/utils
 
-## Project Setup
+## Setup
 
-1. You find the smart contract's codebase in public/src/utils/. I did deploy the smart contract through [Remix](https://remix.ethereum.org/), Ethereum's IDE. I've solely put the smart contract for completeness into this repo. I did not deploy it locally from my machine.
+* You find the smart contract's codebase in public/src/utils/. I did deploy the smart contract through [Remix](https://remix.ethereum.org/), Ethereum's IDE. I've solely put the smart contract for completeness into this repo. I did not deploy it locally from my machine.
 
-2. Once you've deployed your own iteration of the smart contract (if you chose so), update abi.js and contractAddress.js accordingly. You might want to revisit some methods within the components as well after you made some changes to the functions within the smart contract. 
+* Once you've deployed your own iteration of the smart contract (if you chose so), update abi.js and contractAddress.js accordingly. You might want to revisit some methods within the components as well after you made some changes to the functions within the smart contract. 
 
-3. If you are overwhelmed with smart contracts and Remix, [here](https://www.youtube.com/watch?v=KkN1O8TChbM) and [here](https://www.youtube.com/watch?v=KU6bvciWgRE&list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3) are some videos to get started.
+* If you are overwhelmed with smart contracts and Remix, [here](https://www.youtube.com/watch?v=KkN1O8TChbM) and [here](https://www.youtube.com/watch?v=KU6bvciWgRE&list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3) are some videos to get started.
 
-4. As mentioned, you do need the chrome plugin [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) with some money in there. (make sure to be on the Ropsten Test Network)
+* As mentioned, you do need the chrome plugin [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) with some money in there. (make sure to be on the Ropsten Test Network)
 
-### After you cloned the project, run:
+After you cloned the project, run:
 ```
 yarn
 ```
-### Compiles and hot-reloads for development
+Compiles and hot-reloads for development
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+Compiles and minifies for production
 ```
 yarn run build
 ```
 
-### Lints and fixes files
+Start HTTP server with the build (useful for Heroku deployment)
 ```
-yarn run lint
+yarn start
 ```
 
 ## Feedback
