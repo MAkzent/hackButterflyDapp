@@ -1,6 +1,6 @@
+# Hack Butterfly
+
 <p align="center">
-  <h1> Hack Butterfly </h1>
-  <br>
   <img alt="hackButterfly" title="hackButterfly" src="public/images/intro.png" width="auto">
 </p>
 
