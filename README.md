@@ -15,7 +15,7 @@
 
 ## TL:DR
 
-Welcome to my very first dApp tutorial! Please find the [presentation here](https://google.com//), which is build specifically around this repo. The presentation was held in person, so the 'live-coding' section won't be included for obvious reasons.
+Welcome to my very first dApp tutorial! Please find the [presentation here](https://www.slideshare.net/MichaelArnold15/an-introduction-to-decentralized-apps), which is build specifically around this repo. The presentation was held in person, so the 'live-coding' section won't be included for obvious reasons.
 
 ### Prerequisites
 
@@ -34,7 +34,7 @@ The online coding school [Hack Butterfly](https://hackbutterfly.herokuapp.com/) 
 
 This project and presentation were both created during my time as a student at [Code Chrysalis](https://www.codechrysalis.io/) in Tokyo. (Yes. Hack Butterfly is a pun, glad you caught it.)
 
-[You can check out the demo here!](https://hackbutterfly.herokuapp.com/) || [Here's a link to the presentation again](https://google.com/) || Medium post with written turorial will follow
+[You can check out the demo here!](https://hackbutterfly.herokuapp.com/) || [Here's a link to the presentation again](https://www.slideshare.net/MichaelArnold15/an-introduction-to-decentralized-apps) || Medium post with written turorial will follow
 
 ## Features
 
