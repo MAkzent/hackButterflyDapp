@@ -15,7 +15,7 @@
 
 ## TL:DR
 
-Welcome to my very first dApp tutorial! Please find the [presentation here](https://www.slideshare.net/MichaelArnold15/an-introduction-to-decentralized-apps), which is build specifically around this repo. The presentation was held in person, so the 'live-coding' section won't be included for obvious reasons. You can find a YouTube video of the [presentation here](https://www.youtube.com/watch?v=v3scsS1kONM&t=13530s).
+Welcome to my very first dApp tutorial! Please find the [presentation here](https://www.slideshare.net/MichaelArnold15/an-introduction-to-decentralized-apps), which is build specifically around this repo. The presentation was held in person, so the 'live-coding' section won't be included for obvious reasons. If youb want to see the whole talk, you can find the [YouTube video here](https://www.youtube.com/watch?v=v3scsS1kONM&t=13530s).
 
 ### Prerequisites
 
