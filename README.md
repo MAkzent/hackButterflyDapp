@@ -45,7 +45,7 @@ These are the features of the current version:
 * OnlyOwner: Graduate student
 * OnlyOwner: Set program cost
 
-Here's some useful information to get know before getting started with the codebase 
+Here's some useful information to know before getting started with the codebase 
 
 * The Smart Contract is deployed on the Ethereum Ropsten Test Network
 * Owner: 0x4B8dc8d5A7d51c2FFE2A3C1f08DbFC884265967E
